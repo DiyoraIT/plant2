@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1152px;
+  margin: 0 auto;
+}
+nav {
+  padding-top: 40px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-ul {
+  display: flex;
+  gap: 48px;
+}
+ul li a {
+  color: black;
+}
+.nav-button {
+  display: flex;
+  gap: 10px;
+}
+.btnn {
+  background-color: white;
+  color: black;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btnn:hover {
+  background-color: green;
+  color: white;
+  transition: 0.3s;
+}
+
+.header-div-basic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.left-header {
+  padding-top: 96px;
+  /* border: 1px solid; */
+  position: relative;
+}
+.right-header {
+  /* border: 1px solid; */
+  position: relative;
+}
+.h1-head {
+  font-weight: 700;
+  font-size: 72px;
+  width: 548px;
+}
+
+.p-head {
+  padding-top: 24px;
+  width: 437px;
+}
+
+.btn-head {
+  margin-top: 40px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.bottom-head {
+  margin-top: 60px;
+  display: flex;
+  gap: 112px;
+}
+
+.position-img {
+  position: absolute;
+  top: 354px;
+  right: -73px;
+  transform: rotate(3deg);
+}
+
+.first-plant {
+  position: absolute;
+  top: -675px;
+  right: -39px;
+}
+
+.second-plant {
+  position: absolute;
+  top: 171px;
+  right: 338px;
+}
+
+.third-plant {
+  position: absolute;
+  top: 574px;
+  right: -37px;
+}
+
+.first-section-basic {
+  margin-top: 80px;
+  width: 389px;
+  display: flex;
+  margin-left: 32px;
+  gap: 62px;
+}
+.select {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-top: 37px;
+}
+.h11 {
+  width: 360px;
+  font-size: 36px;
+}
+
+.img-section {
+  display: flex;
+  gap: 24px;
+}
+
+.basic-section-second {
+  margin-top: 128px;
+  display: flex;
+  gap: 160px;
+}
+
+.left-Tree {
+  /* border: 1px solid; */
+  position: relative;
+}
+
+.tree-picture {
+  position: absolute;
+  right: -44px;
+  top: 40px;
+}
+.About {
+  color: #066f14;
+  font-size: 18px;
+  font: DM Sans;
+  font-weight: 500;
+}
+
+/* .right-Tree {
+    /* border: 1px solid; 
+} */
+
+.right-Tree h1 {
+  margin-top: 12px;
+  width: 450px;
+  font-size: 40px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font: Nunito;
+  margin-bottom: 24px;
+}
+
+.p2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4a4a;
+  width: 436px;
+}
+
+.p3 {
+  font-size: 18px;
+  margin-top: 16px;
+  font-weight: 500;
+  color: #4a4a4a;
+  width: 437px;
+}
+.right-Tree button {
+  background-color: #066f14;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  margin-top: 36px;
+  border-radius: 4px;
+}
+
+.Our {
+  margin-top: 128px;
+  text-align: center;
+  font-size: 40px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.ull-li {
+  margin-top: 24px;
+}
+.ul-hover {
+  text-align: center;
+}
+.ull {
+  display: flex;
+  gap: 24px;
+  margin-left: 464px;
+}
+
+.pictures-swiper{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    margin-left: 10px;
+}
+
+.first-tree{
+    width: 270px;
+    height: 283px;
+    background-color: #EAF2E5;
+    padding: 10px 65px 120px 65px;
+}
+.second-tree{
+    width: 270px;
+    height: 283px;
+    background-color: #F0EBE6;
+    padding: 10px 65px 120px 65px;
+}
+.third-tree{
+    width: 270px;
+    height: 283px;
+    background-color: #E2ECE4;
+    padding: 10px 65px 120px 65px;
+}
+.forth-tree{
+    width: 270px;
+    height: 283px;
+    background-color: #E7EEED;
+    padding: 10px 65px 120px 65px;    
+}
+
+.pictures-swiper h1{
+width: 178px;
+margin-top: 12px;
+margin-bottom: 10px;
+}
+.pictures-swiper p{
+    margin-top: 12px;
+}
+
+.View{
+    margin-top: 40px;
+    background-color: #066f14;
+    border: none;
+    border-radius: 4px;
+padding: 16px 32px;
+color: white;
+margin-left: 534px;
+}
+
+.osnovnoy-customers{
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chap p{
+    margin-top: 12px;
+    width: 437px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.chap h1{
+    font-size: 40px;
+}
+.on{
+    position: relative;
+}
+
+.image-green{
+    position: absolute;
+    top: 192px;
+    right: 553px;
+    z-index: 1000000;
+    width: 600px;
+    height: 198px;
+    background-color: green;
+    padding-top: 25px;
+    padding-left: 32px;
+   
+}
+
+    .img-man{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }                                
+
+    .man-text h1{
+color: white;
+font-size: 18px;
+
+    }
+    .man-text p{
+        color: white;
+        font-size: 14px;
+        padding-top: 6px;
+    }
+.lorem{
+    font-size: 16px;
+    width: 473px;
+    padding-top: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.kovichki{
+   position: absolute;
+   top: 14px;
+   right: 31px; 
+}
+
+
+.rec1{
+    position: absolute;
+    top: 174px;
+    right: 26px;
+}
+.rec2{
+    position: absolute;
+    top: 174px;
+    right: 1px;
+}
+.arrow1{
+ position: absolute;
+ top: 182px;
+ right: 33px;   
+}
+.arrow2{
+    position: absolute;
+    top: 182px;
+    right: 6px;   
+   }
+
+
+   .rec40-bg{
+    width: 1081px;
+    height: 320px;
+    background-color: #DFFFE3;
+    margin-top: 128px;
+    position: relative;
+   }
+
+  .rec40-bg{
+    display: flex;
+  }
+.subscribe{
+  padding-top: 60px;
+  padding-left: 59px;
+}
+.subscribe p{
+  padding-top: 12px;
+  font-size: 16px;
+  width: 402px;
+}
+
+.big-plant{
+  position: absolute;
+  top: -34px;
+  right: 81px;
+}
+
+input{
+  margin-top: 30px;
+}
+
+
+.elements-section{
+  margin-top: 79px;
+}
+.section-text h1{
+  text-align: center;
+}
+.pp{
+  margin-top: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+.imgs{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+
+.ins {
+  width: 231px;
+  height: 241px;
+  background-image: url('./remi-muller-CZxraRv02-A-unsplash\ 1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+  /* footer ---------------*/
+
+  .wrapper{
+    margin-bottom: 96px;
+    display: flex;
+gap: 201px;
+  }
+  .footer-elements-left{
+    margin-top: 128px;
+  }
+  .p0{
+    margin-top: 24px;
+    font-size: 16px;
+    color: #5A5A5A;
+    width: 306px;
+  }
+    
+.img-footer{
+  margin-top: 22px;
+  display: flex;
+  gap: 16px;
+}
+
+.all-elements{
+  display: flex;
+  gap: 128px;
+  margin-top: 128px;
+}
+
+.ul{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+/* FIGMA */
+
+/* https://www.figma.com/design/WtquyKGDNrLb6j9CJacvTk/Plant3?node-id=301-632&t=PCkVZCyEXeaH59sG-0 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
